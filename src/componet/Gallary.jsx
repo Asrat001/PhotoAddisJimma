@@ -56,26 +56,25 @@ function Gallary() {
 <Birth open={open} close={()=>setOpen(false)}/>
     </Paper>
   </Grid>
-  
   <Grid item xs={4}>
     <Paper elevation={16} sx={{
+      bgcolor:'primary.main',
    
-   height:400,
-   bgcolor:'#569668',
-   padding:2,
-   textAlign:'center',
-   borderRadius:3,
-  marginBottom:3,
-  width:{md:880},
-  mx:1
-   
-    }}> 
-    <Typography variant='h5' fontFamily='poppins' color='white'>Wedding Pictures</Typography>
-    <img src={wedding} alt='birthday img' width='100%' height={300} style={{borderRadius:'10px'}}/>
-      <Button variant="contained" color="success"sx={{mt:3}} onClick={()=>setOpen(true)}>
+      
+      height:400,
+      bgcolor:'#569668',
+      padding:2,
+      textAlign:'center',
+      borderRadius:3,
+      width:{md:880},
+      mx:1
+    }}>
+    <Typography variant='h5' fontFamily='poppins' color='white' >Graduation Pictures</Typography>
+    <img src={wedding} alt='birthday img' width='90%' height={300} style={{borderRadius:'10px'}}/>
+    <Button variant="contained" color="success" sx={{mt:3}}onClick={()=>setOpen(true)}>
               See More
             </Button>
-            <Wedding open={open} close={()=>setOpen(false)}/>
+            <Grad open={open} close={()=>setOpen(false)}/>
     </Paper>
   </Grid>
   <Grid item xs={4}>

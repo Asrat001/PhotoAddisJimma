@@ -37,7 +37,7 @@ function Service() {
               alt="camera"
               style={{
                 borderRadius: 10,
-                background: "linear-gradient(blue, pink)",
+                background: "linear-gradient(blue,gray)",
                 maxWidth:'100%'
               }}
             />

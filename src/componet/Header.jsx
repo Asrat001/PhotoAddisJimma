@@ -57,7 +57,7 @@ export default function DrawerAppBar(props) {
               <Link
                 to={item.to}
                 style={linkStyleM}
-                onClick={() => setMobileOpen(false)}
+                onClick={handleDrawerToggle}
                 smooth={true}
               >
                 {" "}
@@ -85,6 +85,7 @@ export default function DrawerAppBar(props) {
             color="inherit"
             aria-label="open drawer"
             edge="start"
+            onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}
           >
             <MenuIcon />

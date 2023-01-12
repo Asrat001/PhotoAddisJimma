@@ -50,7 +50,7 @@ function Slider() {
             justifyContent="center"
           >
             <IconButton color="primary" back size="large">
-           <a href="tel:+2519243676376" style={{textdecoration:'none'}}>
+           <a href="tel:+251988464949" style={{textdecoration:'none'}}>
            <AiFillPhone />
            </a>
                 
